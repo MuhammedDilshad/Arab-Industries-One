@@ -1,12 +1,30 @@
 .ProfileContainer {
-  align-items: center;
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+
+  height: 80vh;
   background-color: white;
-  padding: 20px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-  width: 150px;
+  width: 160px;
+}
+.ProContainer {
+  padding: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.MapProfileContainer {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding-top: 20px;
+  padding-right: 20px;
 }
 .Content {
   justify-content: center;
+}
+.MapContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .ProfileContainer img {
@@ -19,8 +37,38 @@
   display: flex;
   justify-content: space-evenly;
 }
+.NameIcon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-left: none;
+  background-color: white;
+
+  /* Hover effect - changing background color to #44f5bd immediately */
+  &:hover {
+    background-color: #44f5bd;
+  }
+}
 
 .Name svg {
   color: blue;
   cursor: pointer;
+}
+/* .NameIcon:hover {
+  background-color: #f0f0f0;
+} */
+.Logout {
+  display: flex;
+  margin-top: auto;
+  padding: 10px 20px;
+  background-color: #ddf1ec;
+  color: blue;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
 }
