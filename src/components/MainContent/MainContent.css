@@ -1,0 +1,23 @@
+.MainTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  border: none;
+  background-color: #0073e6;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005bbf;
+}

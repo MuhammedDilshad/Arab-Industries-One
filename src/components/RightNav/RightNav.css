@@ -1,0 +1,27 @@
+.RightNav {
+  background-color: #c3f9e8;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.EachRight {
+  margin-top: 100px;
+  height: 30px;
+  width: 30px;
+  padding: 5px 5px;
+  background-color: white;
+  color: blue;
+  border-radius: 5px;
+}
+.EichRight {
+  height: 30px;
+  width: 30px;
+  padding: 5px 5px;
+  background-color: white;
+  color: blue;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  margin-top: 80px;
+}

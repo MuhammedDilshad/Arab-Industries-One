@@ -1,0 +1,29 @@
+.TopNav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #c3f9e8;
+  height: 15vh;
+}
+.Logo {
+  background-color: white;
+}
+.Logoi {
+  /* height: 30px;
+  width: 30px; */
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+}
+.TopNavEach {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* align-items: center; */
+  padding: 5px 10px;
+  background-color: white;
+  border-radius: 5px; /* Apply border radius to TopNavEach */
+  margin-right: 10px;
+}
+.TopNavContent {
+  display: flex;
+  align-items: center;
+}

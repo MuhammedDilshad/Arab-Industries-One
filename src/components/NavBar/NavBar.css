@@ -1,9 +1,8 @@
 .ProfileContainer {
-  margin-top: 20vh;
   display: flex;
   flex-direction: column;
 
-  height: 80vh;
+  height: 85vh;
   background-color: white;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
   width: 160px;
@@ -47,8 +46,6 @@
   border: 1px solid #ccc;
   border-left: none;
   background-color: white;
-
-  /* Hover effect - changing background color to #44f5bd immediately */
   &:hover {
     background-color: #44f5bd;
   }
@@ -58,9 +55,7 @@
   color: blue;
   cursor: pointer;
 }
-/* .NameIcon:hover {
-  background-color: #f0f0f0;
-} */
+
 .Logout {
   display: flex;
   margin-top: auto;

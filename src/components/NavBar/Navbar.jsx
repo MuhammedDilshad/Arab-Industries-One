@@ -21,7 +21,7 @@ function Navbar() {
       <div className="MapProfileContainer">
         <div className="MapContent">
           {NavbarDetails.map((value) => (
-            <div className="NameIcon">
+            <div className="NameIcon" key={value.id}>
               {value.Navicon}
               <strong>{value.Heading}</strong>
             </div>
