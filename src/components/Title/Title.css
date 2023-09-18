@@ -1,0 +1,53 @@
+.MainTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px;
+}
+@media (max-width: 600px) {
+  .MainTitle {
+    display: flex;
+    flex-direction: column;
+  }
+  .TiButtons {
+    width: 150px;
+  }
+}
+@media (max-width: 844px) {
+  .MainTitle {
+    padding: 10px;
+  }
+}
+.TitleHeader {
+  font-size: 30px;
+}
+@media (max-width: 1024px) {
+  .TitleHeader {
+    font-size: 20px;
+  }
+}
+@media (max-width: 780px) {
+  .TitleHeader {
+    font-size: 15px;
+  }
+}
+.TitleButtons {
+  color: #0c0c0c;
+  background-color: white;
+  border-radius: 50px;
+  &:hover {
+    background-color: #44f5bd;
+  }
+}
+.TiButtons {
+  margin-top: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 2px solid #0c0c0c;
+}
+
+@media (max-width: 700px) {
+  .TitleButtons {
+    padding: 5px;
+  }
+}

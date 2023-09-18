@@ -1,20 +1,24 @@
 import React from "react";
-import DataOne from "../../Assist/Assist";
+import { DataOne, DataTwo } from "../../Assist/Assist";
 import "./MainContent.css";
+import Features from "../Features/Features";
+import Title from "../Title/Title";
+import SecondFeature from "../SecondFeature/SecondFeature";
 
 function MainContent() {
   return (
-    <div>
-      <div className="MainTitle">
-        <div>
-          <strong>choose a plan that's just right for you</strong>
-        </div>
-        <div className="Buttons">
-          <button>Monthly</button>
-          <button>Annually</button>
-        </div>
+    <div className="MainContent">
+      <Title />
+      <div className="MainFeatures">
+        {DataOne.map((value) => (
+          <Features value={value} key={value.User} />
+        ))}
       </div>
-      <div className="Features"></div>
+      <div className="MainSecondFeatures">
+        {DataTwo.map((data) => (
+          <SecondFeature data={data} />
+        ))}
+      </div>
     </div>
   );
 }

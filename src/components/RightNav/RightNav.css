@@ -1,27 +1,49 @@
 .RightNav {
+  padding-left: 10px;
   background-color: #c3f9e8;
   display: flex;
-  height: 100vh;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
+  height: 100%;
+  flex-grow: 1;
+  /* overflow-y: auto; */
 }
+@media (max-width: 700px) {
+  .RightNav {
+    display: none;
+  }
+}
+
+.TopSection {
+  /* Add any styling you want for the top section */
+}
+
+.BottomSection {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
 .EachRight {
-  margin-top: 100px;
+  margin-top: 90px;
   height: 30px;
   width: 30px;
-  padding: 5px 5px;
+  padding: 5px;
   background-color: white;
   color: blue;
   border-radius: 5px;
 }
+
 .EichRight {
+  margin-bottom: 40px;
   height: 30px;
   width: 30px;
-  padding: 5px 5px;
+  padding: 5px;
   background-color: white;
   color: blue;
   border-radius: 5px;
-  margin-bottom: 50px;
-  margin-top: 80px;
+  margin-top: auto;
 }

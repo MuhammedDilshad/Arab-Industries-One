@@ -7,9 +7,10 @@ import "./RightNav.css";
 function RightNav() {
   return (
     <div className="RightNav">
-      <PiBellRingingFill className="EachRight" />
-      <div>
-        <div className="EachRight"></div>
+      <div className="TopSection">
+        <PiBellRingingFill className="EachRight" />
+      </div>
+      <div className="BottomSection">
         <AiOutlinePlusCircle className="EichRight" />
       </div>
     </div>
